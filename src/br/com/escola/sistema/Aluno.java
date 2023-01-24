@@ -71,8 +71,8 @@ public class Aluno {
     }
     public String mostrarNovaAprovacao() {
         double media = this.calcularMedia();
-        if (media >= 50) {
-            if (media >= 70) {
+        if (media >= 5) {
+            if (media >= 7) {
                 return "Aprovado.";
             } else {
                 return "Recuperação.";
