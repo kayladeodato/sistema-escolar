@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcb9caa4-bea4-4094-8327-8a01713c73c6" name="Changes" comment="inserindo loop pra alunos">
+    <list default="true" id="bcb9caa4-bea4-4094-8327-8a01713c73c6" name="Changes" comment="inserindo loop pra disciplinas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/escola/sistema/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/escola/sistema/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/escola/sistema/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/escola/sistema/classes/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/escola/sistema/Disciplina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/escola/sistema/classes/Disciplina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/escola/sistema/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/escola/sistema/classes/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +37,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.escola.sistema.classes" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="br.com.escola.sistema.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.escola.sistema.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.escola.sistema.classes.Main" />
       <module name="sistema-escolar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.escola.sistema.*" />
+          <option name="PATTERN" value="br.com.escola.sistema.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674593691480</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="inserindo loop pra disciplinas">
+      <created>1674675072166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674675072166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="disciplinas" />
     <MESSAGE value="inserindo loop pra alunos" />
-    <option name="LAST_COMMIT_MESSAGE" value="inserindo loop pra alunos" />
+    <MESSAGE value="inserindo loop pra disciplinas" />
+    <option name="LAST_COMMIT_MESSAGE" value="inserindo loop pra disciplinas" />
   </component>
 </project>

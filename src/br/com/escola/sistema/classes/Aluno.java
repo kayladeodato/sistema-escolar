@@ -1,4 +1,6 @@
-package br.com.escola.sistema;
+package br.com.escola.sistema.classes;
+
+import br.com.escola.sistema.constantes.StatusAluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -73,12 +75,12 @@ public class Aluno {
         double media = this.calcularMedia();
         if (media >= 5) {
             if (media >= 7) {
-                return "Aprovado.";
+                return StatusAluno.APROVADO;
             } else {
-                return "Recuperação.";
+                return StatusAluno.RECUPERACAO;
             }
         } else {
-            return "Reprovado.";
+            return StatusAluno.REPROVADO;
         }
     }
 
