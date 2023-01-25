@@ -14,13 +14,13 @@ public class Main {
 
 
             String nome = JOptionPane.showInputDialog("Digite o nome do aluno " + i + ": ");
-            //String curso = JOptionPane.showInputDialog("Digite o seu curso matriculado: ");
-            //String matricula = JOptionPane.showInputDialog("Digite a sua matrícula: ");
+            String curso = JOptionPane.showInputDialog("Digite o seu curso matriculado: ");
+            String matricula = JOptionPane.showInputDialog("Digite a sua matrícula: ");
 
             Aluno aluno = new Aluno();
             aluno.setNomeAluno(nome);
-            //aluno.setNomeCurso(curso);
-            //aluno.setMatricula(matricula);
+            aluno.setNomeCurso(curso);
+            aluno.setMatricula(matricula);
 
             for (int j = 1; j <= 3; j++) {
                 String nomeDisciplina = JOptionPane.showInputDialog("Insira a disciplina " + j);
@@ -50,11 +50,21 @@ public class Main {
             alunos.add(aluno);
         }
 
-        for (Aluno estudante: alunos) {
-            System.out.println(estudante);
-            System.out.println("A média do aluno " + estudante.getNomeAluno() + " é " + estudante.calcularMedia());
-            System.out.println("Resultado: " + estudante.mostrarNovaAprovacao());
-            System.out.println("--------------------------------------------------------------------------");
+        for (int i = 0; i < alunos.size(); i++) {
+            Aluno aluno = alunos.get(i);
+
+            System.out.println("=============== Boletim ===============");
+            System.out.println("Aluno = " + aluno.getNomeAluno());
+            System.out.println("Curso = " + aluno.getNomeCurso());
+            System.out.println("Matrícula = " + aluno.getMatricula());
+
+            for (int j = 0; j < aluno.getDisciplinas().size(); j++) {
+                Disciplina disciplina = aluno.getDisciplinas().get(j);
+                System.out.println(disciplina.getNome() + " Nota = " + disciplina.getNotas());
+            }
+
+            System.out.printf("A média do aluno =  %.2f\n", aluno.calcularMedia());
+            System.out.println("Resultado: " + aluno.mostrarNovaAprovacao());
         }
     }
 }
