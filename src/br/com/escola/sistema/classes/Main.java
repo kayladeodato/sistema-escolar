@@ -74,7 +74,7 @@ public class Main {
             Aluno aluno = alunos.get(i);
 
             System.out.println("=============== Boletim ===============");
-            System.out.println("Aluno = " + aluno.getNomeAluno());
+            System.out.println("Aluno = " + aluno.getNome());
             System.out.println("Curso = " + aluno.getNomeCurso());
             System.out.println("Matrícula = " + aluno.getMatricula());
 
@@ -89,17 +89,17 @@ public class Main {
 
         System.out.println("---------------- Lista de Aprovados ----------------");
         for (Aluno aluno : maps.get(StatusAluno.APROVADO)) {
-            System.out.println("Resultado = " + aluno.getNomeAluno() + " " + aluno.mostrarNovaAprovacao() + " com média " + aluno.calcularMedia());
+            System.out.println("Resultado = " + aluno.getNome() + " " + aluno.mostrarNovaAprovacao() + " com média " + aluno.calcularMedia());
         }
 
         System.out.println("---------------- Lista em Recuperação ----------------");
         for (Aluno aluno : maps.get(StatusAluno.RECUPERACAO)) {
-            System.out.println("Resultado = " + aluno.getNomeAluno() + " " + aluno.mostrarNovaAprovacao() + " com média " + aluno.calcularMedia());
+            System.out.println("Resultado = " + aluno.getNome() + " " + aluno.mostrarNovaAprovacao() + " com média " + aluno.calcularMedia());
         }
 
         System.out.println("---------------- Lista de Reprovados ----------------");
         for (Aluno aluno : maps.get(StatusAluno.REPROVADO)) {
-            System.out.println("Resultado = " + aluno.getNomeAluno() + " " + aluno.mostrarNovaAprovacao() + " com média " + aluno.calcularMedia());
+            System.out.println("Resultado = " + aluno.getNome() + " " + aluno.mostrarNovaAprovacao() + " com média " + aluno.calcularMedia());
         }
 
     }

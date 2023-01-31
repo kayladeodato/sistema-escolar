@@ -6,20 +6,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Aluno {
+public class Aluno extends Pessoa{
 
-    private String nomeAluno;
     private String matricula;
     private List<Disciplina> disciplinas = new ArrayList<>();
     private String nomeCurso;
     private String periodoMatriculado;
 
-    public String getNomeAluno() {
-        return nomeAluno;
+    public String getNome() {
+        return nome;
     }
 
     public void setNomeAluno(String nomeAluno) {
-        this.nomeAluno = nomeAluno;
+        this.nome = nomeAluno;
     }
 
     public String getMatricula() {
@@ -89,18 +88,18 @@ public class Aluno {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Aluno aluno = (Aluno) o;
-        return Objects.equals(nomeAluno, aluno.nomeAluno) && Objects.equals(matricula, aluno.matricula) && Objects.equals(disciplinas, aluno.disciplinas) && Objects.equals(nomeCurso, aluno.nomeCurso) && Objects.equals(periodoMatriculado, aluno.periodoMatriculado);
+        return Objects.equals(nome, aluno.nome) && Objects.equals(matricula, aluno.matricula) && Objects.equals(disciplinas, aluno.disciplinas) && Objects.equals(nomeCurso, aluno.nomeCurso) && Objects.equals(periodoMatriculado, aluno.periodoMatriculado);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(nomeAluno, matricula, disciplinas, nomeCurso, periodoMatriculado);
+        return Objects.hash(nome, matricula, disciplinas, nomeCurso, periodoMatriculado);
     }
 
     @Override
     public String toString() {
         return "Aluno{" +
-                "nomeAluno='" + nomeAluno + '\'' +
+                "nomeAluno='" + nome + '\'' +
                 ", matricula='" + matricula + '\'' +
                 ", disciplinas=" + disciplinas +
                 ", nomeCurso='" + nomeCurso + '\'' +
