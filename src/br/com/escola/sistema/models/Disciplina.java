@@ -1,4 +1,4 @@
-package br.com.escola.sistema.classes;
+package br.com.escola.sistema.models;
 
 import java.util.Objects;
 

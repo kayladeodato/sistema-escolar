@@ -1,4 +1,4 @@
-package br.com.escola.sistema.constantes;
+package br.com.escola.sistema.models;
 
 public class StatusAluno {
     public static String APROVADO = "Aprovado";

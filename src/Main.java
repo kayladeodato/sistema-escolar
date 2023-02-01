@@ -1,10 +1,8 @@
-package br.com.escola.sistema.classes;
+import br.com.escola.sistema.models.Aluno;
+import br.com.escola.sistema.models.Disciplina;
+import br.com.escola.sistema.models.StatusAluno;
 
-import br.com.escola.sistema.constantes.StatusAluno;
-
-import javax.sound.midi.Soundbank;
 import javax.swing.*;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

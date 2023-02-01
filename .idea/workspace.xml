@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcb9caa4-bea4-4094-8327-8a01713c73c6" name="Changes" comment="inserindo listas de status aluno">
+    <list default="true" id="bcb9caa4-bea4-4094-8327-8a01713c73c6" name="Changes" comment="inserindo classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/escola/sistema/classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/escola/sistema/classes/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/escola/sistema/classes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/escola/sistema/classes/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -42,12 +45,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="br.com.escola.sistema.classes.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.escola.sistema.classes.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="sistema-escolar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.escola.sistema.classes.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,7 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.br.com.escola.sistema.classes.Main" />
+        <item itemvalue="Application.br.com.escola.sistema.models.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674679796209</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inserindo classes">
+      <created>1675197914645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675197914645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +127,7 @@
     <MESSAGE value="inserindo loop pra alunos" />
     <MESSAGE value="inserindo loop pra disciplinas" />
     <MESSAGE value="inserindo listas de status aluno" />
-    <option name="LAST_COMMIT_MESSAGE" value="inserindo listas de status aluno" />
+    <MESSAGE value="inserindo classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="inserindo classes" />
   </component>
 </project>

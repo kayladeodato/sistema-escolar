@@ -1,6 +1,4 @@
-package br.com.escola.sistema.classes;
-
-import br.com.escola.sistema.constantes.StatusAluno;
+package br.com.escola.sistema.models;
 
 import java.util.ArrayList;
 import java.util.List;
